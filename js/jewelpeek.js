@@ -1,3 +1,6 @@
+//
+//
+//
 (function createBoard() {
 	var rows = 8;
 	var tilesPerRow = 8;
@@ -14,4 +17,14 @@
 			board.appendChild(row);
 		}
 	}
+})();
+
+//
+//
+//
+(function createBoardState() {
+
+})();
+(function createTileStates() {
+
 })();
