@@ -1,15 +1,17 @@
-var rows = 8;
-var tilesPerRow = 8;
+(function createBoard() {
+	var rows = 8;
+	var tilesPerRow = 8;
 
-var board = document.getElementById("board");
+	var board = document.getElementById("board");
 
-for(var y = 0; y < rows; y++) {
-	var row = document.createElement("div");
-	row.className = "row";
-        for (var x = 0; x < rows; x++) {
-		var tile = document.createElement("div");
-	        tile.className = "tile white";
-		row.appendChild(tile);
-		board.appendChild(row);
+	for(var i = 0; i < rows; i++) {
+		var row = document.createElement("div");
+		row.className = "row row" + i;
+		for (var j = 0; j < rows; j++) {
+			var tile = document.createElement("div");
+			tile.className = "tile white tile" + j;
+			row.appendChild(tile);
+			board.appendChild(row);
+		}
 	}
-}
+})();
