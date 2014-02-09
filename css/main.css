@@ -30,6 +30,29 @@ body {
 	border-radius: 10px;
 }
 
+/* types are colors for now */
 .white {
     background-color: white;
+ }
+.red {
+	background-color: red;
+}
+.orange{
+	background-color: orange;
+}
+.yellow {
+	background-color: yellow;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.purple
+{
+	background-color: purple;
+}
+.pink {
+	background-color: pink;
  }
